@@ -1,5 +1,10 @@
 playground:
   outputs:
+
+    dev_with_fal:
+      type: fal
+      db_profile: dev # This points to your main adapter
+
     dev:
       type: postgres
       threads: 1
@@ -9,4 +14,6 @@ playground:
       pass: admin
       dbname: mydb
       schema: public
-  target: dev
+
+  #target: dev
+  target: dev_with_fal
