@@ -25,7 +25,9 @@ Go to the dbt project folder via `cd playground` and run `dbt build`. Or in step
 
 1. Installing dependencies (if needed):
 
-`dbt deps`
+```
+dbt deps
+```
 
 2. Seed sample data
 
