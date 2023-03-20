@@ -4,4 +4,5 @@ sources:
   - name: public
     tables:
       - name: places
+      - name: people_raw
       - name: people
