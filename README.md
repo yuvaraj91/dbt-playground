@@ -35,10 +35,10 @@ dbt deps
 dbt seed
 ```
 
-or to load only one table:
+or to load only one table `public.people_raw`:
 
 ```
-dbt seed --select people
+dbt seed --select people_raw
 ```
 
 3. Run an SQL model
