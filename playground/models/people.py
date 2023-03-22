@@ -10,7 +10,6 @@ def encoding(x):
 def model(dbt, fal):
     dbt.config(materialized="table")
     
-    #df = dbt.ref("people_raw")
     df = dbt.source('public', 'people_raw')
     
     df['family_name'] = df['family_name'].apply(encoding)
