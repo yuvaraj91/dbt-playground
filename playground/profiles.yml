@@ -1,11 +1,11 @@
 playground:
   outputs:
 
-    dev_with_fal:
+    dbt_fal:
       type: fal
-      db_profile: dev # This points to your main adapter
+      db_profile: prod # This points to your main adapter
 
-    dev:
+    prod:
       type: postgres
       threads: 1
       host: localhost
@@ -16,4 +16,4 @@ playground:
       schema: public
 
   #target: dev
-  target: dev_with_fal
+  target: dbt_fal
