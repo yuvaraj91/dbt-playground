@@ -3,6 +3,4 @@ version: 2
 sources:
   - name: public
     tables:
-      - name: places
-      - name: people_raw
-      - name: people
+      - name: output_people_raw
